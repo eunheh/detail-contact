@@ -2,6 +2,7 @@ function SingleController ($state, ContactService, $stateParams) {
 
   let vm = this;
   vm.contact = {};
+  this.gotoMain = gotoMain;
 
   function init () {
 
