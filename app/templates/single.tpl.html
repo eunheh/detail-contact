@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img src="http://i.imgur.com/Y7LgOJA.jpg" alt="">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-content">
+        <medium class="title">{{ single.contact.name }}</medium>
+        <br><br>
+        <medium class="subtitle">{{ single.contact.email }}</medium>
+        <br><br>
+        <medium class="subtitle">{{ single.contact.phone }}</medium>
+        <br><br>
+        <medium>{{ single.contact.location }}</medium>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="control">
+  <button class="button is-danger" ng-click="single.goMain()">Back to Main</button>
+</p>

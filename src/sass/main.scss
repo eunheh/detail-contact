@@ -1,0 +1,52 @@
+@import 'bulma';
+
+.nav {
+  display: flex;
+  justify-content: center;
+  a{
+    color: red;
+    margin-top: 15px;
+  }
+}
+
+.hero-body {
+  text-align: center;
+  img {
+    margin-left: 10px;
+  }
+
+}
+
+.subtitle {
+  margin-top: 20px;
+  text-align: center;
+}
+
+a{
+  color: red;
+}
+
+.add-table {
+  height: 60px;
+}
+
+.form {
+  margin-top: 20px;
+}
+.card.ng-scope {
+  figure {
+    background-color: lightgrey;
+
+    img {
+      align-items: center;
+      border-radius: 100%;
+      width: 160px;
+      height: 160px;
+      margin-left: 70px;
+      margin-top: 32px;
+    }
+  }
+  .card-imgage, .card-content {
+      margin: 10px auto;
+  }
+}

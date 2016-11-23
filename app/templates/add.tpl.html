@@ -1,0 +1,47 @@
+<section class="hero is-danger add-table">
+  <h1 class="subtitle is-danger">Add a Contact</h1>
+</section>
+
+<form ng-submit="add.addContact(contact)">
+
+  <label class="label">Name</label>
+    <p class="control">
+      <input class="input" type="text"
+            placeholder="First and Last Name"
+            ng-model="contact.name"
+            ng-keyup="validateName(form.name)"/>
+      <!-- <span class="input-error">{{ errors.name }}</span> -->
+    </p>
+
+  <label class="label">Email</label>
+    <p class="control">
+      <input class="input" type="text"
+            placeholder="email@example.com"
+            ng-model="contact.email"
+            ng-keyup="validateEmail(form.email)" />
+      <!-- <span class="input-error">{{ errors.email }}</span> -->
+    </p>
+
+  <label class="label">Phone Number</label>
+    <p class="control">
+      <input class="input" type="text"
+             placeholder="(123)456-7890"
+             ng-model="contact.phone"
+             ng-keyup="validateUrl(form.phone)"/>
+      <!-- <span class="input-error">{{ errors.phone }}</span> -->
+    </p>
+
+  <label class="label">Location</label>
+    <p class="control">
+      <input class="input" type="text"
+            placeholder="Cabbagetown"
+            ng-model="contact.location"
+            ng-keyup="validateMsg(form.location)"/>
+    <!-- <span class="input-error">{{ errors.location }}</span> -->
+    </p>
+
+  <p class="control">
+    <button class="button is-danger">Submit</button>
+  </p>
+
+</form>
