@@ -9,13 +9,21 @@
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <medium class="title">{{ single.contact.name }}</medium>
+          <medium class="title"><span class="icon">
+              <i class="fa fa-user" aria-hidden="true"></i></span>
+                {{ single.contact.name }}</medium>
           <br><br>
-          <medium class="subtitle">{{ single.contact.email }}</medium>
+          <medium class="subtitle"><span class="icon">
+              <i class="fa fa-envelope" aria-hidden="true"></i></span>
+                {{ single.contact.email }}</medium>
           <br><br>
-          <medium class="subtitle">{{ single.contact.phone }}</medium>
+          <medium class="subtitle"><span class="icon">
+              <i class="fa fa-phone" aria-hidden="true"></i></span>
+                {{ single.contact.phone }}</medium>
           <br><br>
-          <medium>{{ single.contact.location }}</medium>
+          <medium><span class="icon">
+              <i class="fa fa-globe" aria-hidden="true"></i></span>
+                {{ single.contact.location }}</medium>
         </div>
       </div>
     </div>
