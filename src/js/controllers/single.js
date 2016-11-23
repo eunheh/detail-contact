@@ -13,10 +13,10 @@ function SingleController ($state, ContactService, $stateParams) {
 
   init();
 
-function goMain () {
-    $state.go('root.home')
+  function gotoMain () {
+    $state.go('root.home');
   }
-  
+
 };
 
 SingleController.$inject = ['$state','ContactService', '$stateParams'];
